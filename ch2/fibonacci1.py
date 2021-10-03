@@ -3,4 +3,4 @@ def fibonacci(n):
         return 1
     return fibonacci(n - 2) + fibonacci(n - 1)
 
-print(fibonacci(6))
+print(fibonacci(36))
