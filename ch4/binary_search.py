@@ -12,7 +12,7 @@ def binary_search(data, value):
             return mid
         elif data[mid] < value:
             left = mid + 1
-        elif data[mid] < value:
+        else:
             right = mid - 1
     return -1
 
